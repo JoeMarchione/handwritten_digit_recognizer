@@ -1,3 +1,6 @@
+import os
+os.environ['KERAS_BACKEND'] = 'tensorflow'
+
 from keras.models import load_model
 from tkinter import *
 import tkinter as tk
